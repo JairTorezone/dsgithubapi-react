@@ -1,12 +1,11 @@
 import './styles.css';
 
-function Button() {
-  return (
-    <button>
-      Começar
-      <span>..</span>
-    </button>
-  );
+type Props = {
+  title: string;
+};
+
+function Button({ title }: Props) {
+  return <button>{title}</button>;
 }
 
 export default Button;
