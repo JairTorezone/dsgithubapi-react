@@ -8,9 +8,11 @@ function Home() {
       <Navbar />
       <main>
         <div className="main-content">
-          <h1>Desafio Github API</h1>
-          <p>DevSuperior - Escola de programação</p>
-          <Button />
+          <div className="main-description">
+            <h1>Desafio Github API</h1>
+            <p>DevSuperior - Escola de programação</p>
+          </div>
+          <Button title="Começar" />
         </div>
       </main>
     </div>

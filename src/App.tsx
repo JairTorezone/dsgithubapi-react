@@ -1,10 +1,10 @@
 import 'assets/styles/custom.scss';
 import './App.css';
 
-import Home from 'pages/Home';
+import SearchApi from 'pages/SearchApi';
 
 function App() {
-  return <Home />;
+  return <SearchApi />;
 }
 
 export default App;
