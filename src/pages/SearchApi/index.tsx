@@ -65,7 +65,9 @@ function SearchApi() {
                   onChange={handleChange}
                 />
               </div>
-              <Button title="Encontrar" />
+              <button type="submit" className="btn-search">
+                Buscar
+              </button>
             </form>
           </div>
 
@@ -80,10 +82,10 @@ function SearchApi() {
                 </div>
 
                 <CardInfo
-                  url={github?.url}
-                  followers={github?.followers}
-                  location={github?.followers}
-                  name={github?.name}
+                  url={github.url}
+                  followers={github.followers}
+                  location={github.followers}
+                  name={github.name}
                 />
               </div>
             </>

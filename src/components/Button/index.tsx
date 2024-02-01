@@ -8,7 +8,7 @@ type Props = {
 function Button({ title }: Props) {
   return (
     <Link to="/gitsearch">
-      <button>{title}</button>
+      <button>{title}</button>;
     </Link>
   );
 }
