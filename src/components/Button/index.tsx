@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 type Props = {
@@ -5,7 +6,11 @@ type Props = {
 };
 
 function Button({ title }: Props) {
-  return <button>{title}</button>;
+  return (
+    <Link to="/gitsearch">
+      <button>{title}</button>
+    </Link>
+  );
 }
 
 export default Button;

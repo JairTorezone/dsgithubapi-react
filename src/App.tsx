@@ -1,10 +1,10 @@
-import 'assets/styles/custom.scss';
 import './App.css';
+import 'assets/styles/custom.scss';
 
-import SearchApi from 'pages/SearchApi';
+import Routes from 'Routes';
 
 function App() {
-  return <SearchApi />;
+  return <Routes />;
 }
 
 export default App;
