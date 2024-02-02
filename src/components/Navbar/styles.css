@@ -1,15 +1,15 @@
-.nav-container h3 {
+.nav-container {
   min-height: 62px;
   background: #1890ff;
 }
+.nav-container a {
+  text-decoration: none;
+}
 
 .nav-container h3 {
-  font-size: 2.4rem;
   color: #fff;
-
+  font-size: 2.4rem;
   padding: 15px 41px;
 
   font-weight: 500;
-  text-decoration: none;
-  border: none;
 }

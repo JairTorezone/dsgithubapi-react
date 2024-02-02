@@ -47,3 +47,10 @@
 .card-info li a {
   color: #0029ff;
 }
+
+@media (min-width: 320px) {
+  .card-info {
+    width: 100%;
+    padding: 10px;
+  }
+}

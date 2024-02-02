@@ -14,7 +14,9 @@ function CardInfo({ url, followers, location, name }: Props) {
       <ul>
         <li>
           <span>Perfil: </span>
-          <a href="/">{url}</a>
+          <a href={url} target="_blank">
+            {url}
+          </a>
         </li>
         <li>
           <span>Seguidores:</span> {followers}

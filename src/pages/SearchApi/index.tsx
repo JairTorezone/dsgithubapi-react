@@ -1,4 +1,3 @@
-import Button from 'components/Button';
 import CardInfo from 'components/CardInfo';
 import { useState } from 'react';
 import axios from 'axios';
@@ -56,7 +55,8 @@ function SearchApi() {
 
             <form onSubmit={handleSubmit}>
               <div className="wrapper-input">
-                <label htmlFor="name">Usuário Github</label>
+                <label htmlFor="name">Pesquisar usuário Github</label>
+
                 <input
                   type="text"
                   name="git"
@@ -65,6 +65,7 @@ function SearchApi() {
                   onChange={handleChange}
                 />
               </div>
+
               <button type="submit" className="btn-search">
                 Buscar
               </button>
