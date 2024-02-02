@@ -97,3 +97,24 @@
     height: auto;
   }
 }
+
+@media (min-width: 556px) {
+  .search-container {
+    padding: 0 25px;
+  }
+
+  .content-info {
+    padding: 30px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-info {
+    flex-direction: row;
+    width: 100%;
+  }
+  .card-image img {
+    width: 250px;
+    height: auto;
+  }
+}
